@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from cv2 import cv2
 from keras.models import load_model
 import numpy as np
-model = load_model('modelVGG16.h5')
+model = load_model('modelfl.h5')
 # print('Loading model_FTVGG16 model')
 
 class_names = ['daisy', 'dandelion','rose','sunflower','tulip']
