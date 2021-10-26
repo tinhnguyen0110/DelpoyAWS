@@ -63,11 +63,18 @@
                                         {%endfor%}
                                     </tbody>
                                 </table>
+                                <div class="media">
+            
+                                    <img src="{{url_for('static', filename='image/volume.png')}}" onclick="sound('{{item}}')"
+                                        alt="" />
+                                    <!-- <a href="javascript:void(0);">JAVASCRIPT LINK</a> -->
+                                </div>
                                 <h4 class="text-center" style="color: red;">{{data}}</h4>
                             </div>
                         </div>
                     </div>
                 </div>
+            
                 <div class="predict">
 
                     <!-- <input id="base64" type="text" name="text_base64"> -->

@@ -207,6 +207,11 @@
       }
 
     }
+    
+    function sound(item) {
+      var audio = new Audio('/static/speech.mp3');
+      audio.play();
+    }
 
     function get_image() {
       var file_request = document.getElementById("file_input")
